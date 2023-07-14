@@ -22,8 +22,9 @@ width:100%;
       bottom: 0;
       right: 0;
       font-size: 30px;
-      margin: 1px;
-      
+    
+      padding:5px;
+        
     }
      .quantity {
        position: absolute;
@@ -40,7 +41,7 @@ width:100%;
        padding: 2px;
      }
     .cart {
-      width:450px;
+      width:70%;
        position: fixed;
         background-color:white;
          padding: 20px;
