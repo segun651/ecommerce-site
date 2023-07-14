@@ -258,7 +258,7 @@
                            border-radius: 18px;
                         }
                    .display {
-                   transform: translate(100%);
+                   transform: translateX(100%);
             
          
                    }
