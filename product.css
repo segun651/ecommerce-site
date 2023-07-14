@@ -152,12 +152,12 @@ width:100%;
      nav {
          background-color:white;
           box-shadow: 0 0 5px lightgrey;
-           font-size: 20px;
+           font-size: 14px;
            color:black;
-           padding: 10px 14px;
+           padding: 10px 8px;
              height: 10vh;
           z-index: 10;
-            
+          width:100%;  
          
      }
       nav p {
