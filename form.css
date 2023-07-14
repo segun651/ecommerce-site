@@ -76,3 +76,9 @@ text-transform:uppercase;
  75% {color:red;}
 100%{color:white;}
  }
+  @media (max-width:750px) {
+    .box {
+  width:90vw;
+      margin:5px auto;
+    }
+  }
