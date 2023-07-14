@@ -22,14 +22,14 @@ width:100%;
       bottom: 0;
       right: 0;
       font-size: 30px;
-      margin: 4px;
+      margin: 1px;
       
     }
      .quantity {
        position: absolute;
        top:0;
        right:0;
-       margin: 4px;
+       margin: 2px;
        margin-top: 22px;
        width:30px;
        text-align: center;
@@ -214,14 +214,14 @@ width:100%;
                 border-radius: 20px;
                   color:black;
                   font-size: 20px;
-                   width:50%;
+                   width:100%;
                      padding: 10px;
                      margin: 0 4px;
                   
              }
          
              .search {
-                 width:13%;
+                 width:100px;
                  padding:20px;
                   border-radius: 20px;
                   margin: 2px;
