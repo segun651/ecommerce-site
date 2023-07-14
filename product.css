@@ -142,7 +142,7 @@ width:100%;
            text-align: center;
          }
           .cart .total {
-             display: flex;
+             display: grid;
              justify-content: end;
              border-top: 1px solid black;
              font-size: 30px;
@@ -204,9 +204,9 @@ width:100%;
             display: flex; 
             justify-content: center;
              align-items: center;
-             gap:10px;
+             gap:1px;
             margin-top: 12vh;
-         
+         width:100%;
               
           }
              .input input {
@@ -214,14 +214,14 @@ width:100%;
                 border-radius: 20px;
                   color:black;
                   font-size: 20px;
-                   width:450px;
+                   width:50%;
                      padding: 10px;
                      margin: 0 4px;
                   
              }
          
              .search {
-                 width:130px;
+                 width:30%;
                  padding:20px;
                   border-radius: 20px;
                   margin: 2px;
@@ -236,9 +236,9 @@ width:100%;
                 height: 10vh;
                 margin-top: 4px;
                  margin-bottom: 20px;
-                 font-size: 20px;
+                 font-size: 10px;
                  font-family: 'Times New Roman', Times, serif;
-                 padding: 10px 14px;
+                 padding: 10px 8px;
                  
 
                }
@@ -249,7 +249,7 @@ width:100%;
                  list-style: none;
              }
              .filter li {
-                padding: 10px 14px;
+                padding: 10px 8px;
                 margin: 18px;
                  text-align: center;
                 
