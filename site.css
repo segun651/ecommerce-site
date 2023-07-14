@@ -378,7 +378,7 @@
                             text-align: center;
                           }
                     .container img {
-                          width:300px;
+                          width:auto;
                           margin:2px auto
               }
 
