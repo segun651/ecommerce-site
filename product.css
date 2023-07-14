@@ -302,7 +302,7 @@ width:100%;
           display: none;
         }    
         .display {
-          transform: translate(-100%);
+          transform: translateX(-100%);
         }
 
        @media (max-width:830px) {
