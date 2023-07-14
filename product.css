@@ -276,11 +276,12 @@ width:100%;
                }
                
               #product img {
-                  width:500px;
+                  width:400px;
                    object-fit: contain;
                    height:200px;
                   display:block;
-                  margin:auto;
+                  margin-left:auto;
+                  margin-right:auto;
                }
      .boxbtns {
          width:40%;
