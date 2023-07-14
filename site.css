@@ -377,6 +377,10 @@
                             width: 40px;
                             text-align: center;
                           }
+                    .container img {
+                          width:90vw;
+                          margin:2px auto
               }
-            
+
+              }
     
