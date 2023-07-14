@@ -259,7 +259,7 @@
                         }
                    .display {
                    transform: translateX(100%);
-            
+             display:none;
          
                    }
                     #bars {
@@ -316,6 +316,7 @@
                  }
                  
                    .display {
+                        display:block;
                      transform: translateX(100%);
                      text-align: center;
                            
