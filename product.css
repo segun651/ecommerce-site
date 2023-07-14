@@ -279,6 +279,8 @@ width:100%;
                   width:500px;
                    object-fit: contain;
                    height:200px;
+                  display:block;
+                  margin:auto;
                }
      .boxbtns {
          width:40%;
