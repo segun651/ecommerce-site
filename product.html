@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="product.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"  rel="stylesheet">
+</head>
+<body>
+  
+     <div class="overlay"></div>
+     <div class="fixed">
+    <nav>
+        <p>Segs Store</p>
+        <i class="fa fa-bars" id="bars"></i> 
+        <ul>
+         <li><a href="Site.html"> Home </a></li>
+         <li><a href="product.html">Services</a></li>
+         <li><a href="Site.html#contacts"> Contacts</a></li>
+         <li><a href="Site.html#about"> About Us </a></li>
+        
+        </ul>
+        <i class="fa fa-shopping-cart"  id="shop"></i><span class="quantity">0</span>
+    </nav>
+     </div>
+     
+    <div class="input">
+        <input type="text" name="name"  id="nameinput" placeholder="Search for your products here."><button class="search" onclick="showname()" >Search</button>
+     </div>
+      <h1 class="producttext">
+         Your Products
+      </h1>
+     <div class="filter">
+         <ul>
+        <li  id="all" data-filter="all" > All </li>
+        <li id="filter" data-filter="Facial" > Facial </li>
+        <li id="hair" data-filter="Hair" > Hair </li>
+        <li id="body" data-filter="Body"> Body </li>
+         </ul>
+     </div>
+                    
+     <div id="product" >
+        
+        
+     
+     </div>
+     <div class="display" >
+        <p class="closecarts">&times</p>
+    <li><a href="Site.html"> Home </a></li>
+    <li><a href="product.html"> Services </a></li>
+    <li><a href="#contacts"> Contacts </a></li>
+    <li><a href="#about">About Us </a></li>
+     </div>
+     <div class="cart">
+        <div class="closecart" >&times</div>
+        <h1> Your Cart</h1>
+         <div id="cartbox">
+        <h1  style="text-align: center;">  Your cart is empty</h1>
+    </div>    
+         <div class="total"> Total  <span class="totalprice" >  $0 </span></div>
+          <div id="buysbtn"><button id="buys" > Buy Now </button></div>
+    </div>
+     
+
+
+    
+     <script src="product.js"></script>
+</body>
+</html>
