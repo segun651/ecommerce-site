@@ -41,7 +41,7 @@ width:100%;
        padding: 2px;
      }
     .cart {
-      width:70%;
+      width:450px;
        position: fixed;
         background-color:white;
          padding: 20px;
@@ -387,5 +387,8 @@ width:100%;
            #product img {
      width:200px;
        }
+           .cart {
+               width:300px;
+           }
        }
           
