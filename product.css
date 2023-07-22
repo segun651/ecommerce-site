@@ -260,7 +260,7 @@ width:100%;
              }
              #product {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
                  row-gap:2px;
                  column-gap: 1.5rem; 
                 width:90vw;
@@ -397,6 +397,19 @@ width:100%;
                .cart {
                width:95%;
            }
+      #product {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                 row-gap:2px;
+                 column-gap: 1.5rem; 
+                width:90vw;
+             
+                box-shadow: 0 0 5px lightgrey;
+                 padding: 2px;
+                 margin: 0 auto;
+                 text-align: center;
+              }
+                 
  }
       
           
