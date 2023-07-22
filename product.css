@@ -64,7 +64,7 @@ width:100%;
   }
      .cartcontent {
       display:grid;
-       grid-template-columns: 20% 80% 20%;
+       grid-template-columns: 20% 70% 30%;
        gap:2px;
        margin: 2px;
         align-items: center;
@@ -95,7 +95,7 @@ width:100%;
             .btnsnum {
               
               font-size: 24px;
-              margin:5px;
+              
             }
             
              .fa-trash  {
@@ -418,7 +418,7 @@ width:100%;
      
                .cartcontent {
       display:grid;
-       grid-template-columns: 20% 80% 20%;
+       grid-template-columns: 20% 70% 30%;
        gap:0.5px;
        
        margin: 2px;
