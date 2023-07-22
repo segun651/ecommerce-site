@@ -229,10 +229,12 @@ width:100%;
                   margin: 2px;
                   background-color:#12a5ca;
                   color: white;
+                 text-align:center;
              }
              .search:hover {
                 background-color: white;
                 color:blue;
+                 outline:none;
              }
                .filter {
                 height: 10vh;
