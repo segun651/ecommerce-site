@@ -119,9 +119,10 @@ width:100%;
 
               }
              .detail  .name {
-              margin: 5px;
-               text-align: center;
-               font-size: 15px;
+            
+               display:flex;
+                 justify-content:center;
+               font-size::15px;
                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
              }
           .producttext {
