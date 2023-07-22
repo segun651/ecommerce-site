@@ -78,7 +78,7 @@ text-transform:uppercase;
  }
   @media (max-width:600px) {
     .box {
-  width:90vw;
+  width:80vw;
       margin:5px auto;
     }
    input {
