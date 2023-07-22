@@ -398,7 +398,7 @@ width:100%;
 
  @media(max-width:550px) {
                .cart {
-               width:95%;
+               width:99%;
            }
       #product {
                 display: grid;
@@ -419,8 +419,8 @@ width:100%;
                .cartcontent {
       display:grid;
        grid-template-columns: 20% 80% 20%;
-       gap:2px;
-       column-gap: 7px;
+       gap:5px;
+       
        margin: 2px;
         align-items: center;
 
