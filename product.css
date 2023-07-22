@@ -387,8 +387,13 @@ width:100%;
            #product img {
      width:200px;
        }
-           .cart {
+
+       }
+
+ @media(max-width:550px) {
+               .cart {
                width:300px;
            }
-       }
+ }
+      
           
