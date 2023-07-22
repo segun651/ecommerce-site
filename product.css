@@ -117,6 +117,7 @@ width:100%;
                 display: grid;
                 row-gap: 3px;
                justify-content:center;
+                  align-items:center;
               }
              .detail .name {
             
