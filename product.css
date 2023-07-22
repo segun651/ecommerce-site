@@ -415,6 +415,16 @@ width:100%;
               .input input { 
                   width:60%;
  }
-      
+     
+               .cartcontent {
+      display:grid;
+       grid-template-columns: 20% 80% 20%;
+       gap:2px;
+       column-gap: 7px;
+       margin: 2px;
+        align-items: center;
+
+               }
+ }
       
           
