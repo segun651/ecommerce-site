@@ -222,6 +222,7 @@ width:100%;
              }
          
              .search {
+                 display:flex;
                  width:20%;
                  padding:  18px;
                   border-radius: 20px;
