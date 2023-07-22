@@ -390,5 +390,14 @@
                      border: 1px solid black;
                      
               }
+                      .slidecontainer h1 {
+              padding: 5px;
+              font-size:15px;
+               margin:0 0 1px 0;
+                text-align: center;
+                color: red;
+                margin-bottom: 1px;
+                background-color: white;
+             }
               }
     
