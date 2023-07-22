@@ -94,7 +94,7 @@ width:100%;
            }
             .btnsnum {
               display:grid;
-                justify-content:space-evenly;
+                justify-content:space-between;
               font-size: 24px;
               
             }
