@@ -431,7 +431,7 @@ width:100%;
        .btnsnum {
               display:grid;
                justify-content:end;
-              gap:5px;
+              
               font-size: 24px;
               
             }
