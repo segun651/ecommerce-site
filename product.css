@@ -428,6 +428,12 @@ width:100%;
         align-items: center;
 
                }
+       .btnsnum {
+              display:grid;
+                
+              font-size: 24px;
+              
+            }
  }
       
           
