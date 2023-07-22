@@ -64,7 +64,7 @@ width:100%;
   }
      .cartcontent {
       display:grid;
-       grid-template-columns: 20% 80% 10%;
+       grid-template-columns: 15% 80% 5%;
        gap:2px;
        margin: 2px;
         align-items: center;
@@ -94,7 +94,7 @@ width:100%;
            }
             .btnsnum {
               display:grid;
-                justify-content:space-around;
+                justify-content:space-evenly;
               font-size: 24px;
               
             }
@@ -419,7 +419,7 @@ width:100%;
      
                .cartcontent {
       display:grid;
-       grid-template-columns: 20% 80% 10%;
+       grid-template-columns: 15% 80% 5%;
        gap:0.5px;
        
        margin: 2px;
