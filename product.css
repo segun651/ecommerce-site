@@ -41,7 +41,7 @@ width:100%;
        padding: 2px;
      }
     .cart {
-      width:450px;
+      width:400px;
        position: fixed;
         background-color:white;
          padding: 20px;
@@ -222,7 +222,7 @@ width:100%;
              }
          
              .search {
-                 width:30%;
+                 width:10%;
                  padding: 10px 8px;
                   border-radius: 20px;
                   margin: 2px;
