@@ -285,7 +285,7 @@
                         .newsletter button {
                           font-size: 17px;
                            width:20%;
-                            padding:18px 8px;
+                            padding:18px ;
                             text-align: center;
                             background-color: red;
                             color:white;
@@ -379,7 +379,7 @@
                             text-align: center;
                           }
                     .container img {
-                          width:150px;
+                          width:250px;
                          height:350px;
                           margin:2px auto
               }
