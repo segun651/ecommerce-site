@@ -118,10 +118,11 @@ width:100%;
                 row-gap: 3px;
 
               }
-             .detail  .name {
+             .detail .name {
             
                display:flex;
                  justify-content:center;
+                 margin-left:5px;
                font-size::15px;
                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
              }
