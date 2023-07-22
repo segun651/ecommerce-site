@@ -93,7 +93,8 @@ width:100%;
              background-color: white;
            }
             .btnsnum {
-              
+              display:grid;
+                justify-content:space-evenly;
               font-size: 24px;
               
             }
