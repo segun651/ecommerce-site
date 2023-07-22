@@ -423,7 +423,7 @@ width:100%;
      
                .cartcontent {
       display:grid;
-       grid-template-columns: 13% 80% 4%;
+       grid-template-columns: 10% 83% 4%;
        gap:0.5px;
        
        margin: 2px;
