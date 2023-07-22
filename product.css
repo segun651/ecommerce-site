@@ -419,7 +419,7 @@ width:100%;
                .cartcontent {
       display:grid;
        grid-template-columns: 20% 80% 20%;
-       gap:5px;
+       gap:0.5px;
        
        margin: 2px;
         align-items: center;
