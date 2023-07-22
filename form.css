@@ -81,4 +81,25 @@ text-transform:uppercase;
   width:90vw;
       margin:5px auto;
     }
+   input {
+             width:90%;
+             font-size: 10px;
+             margin: 2px auto 20px auto;
+             text-align: left;
+             padding:10px;
+            
+             border-bottom: 2px solid black;
+           }
+       
+  input[type = submit] {
+background-color:black;
+color:white;
+padding:5px;
+width:80%;
+height:50px;
+text-align:center;
+text-decoration:none;
+ margin: 4px auto;
+ border-radius: 5px;
+}
   }
