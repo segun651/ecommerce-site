@@ -156,7 +156,7 @@
                 .what {
                    color: black;
                   display: grid;
-               grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+               grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
                gap: 1px;
             row-gap: 20px;
               font-size: larger;
@@ -326,7 +326,7 @@
               @media (max-width:950px)  {
                 nav {
                    height: auto;
-                  padding: 10px 15px;
+                  padding:  25px;
                 }
                 nav ul {
                   display: none;
