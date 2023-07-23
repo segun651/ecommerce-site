@@ -326,7 +326,7 @@
               @media (max-width:950px)  {
                 nav {
                    height: auto;
-                  padding: 24px 10px;
+                  padding: 24px 5px;
                 }
                 nav ul {
                   display: none;
