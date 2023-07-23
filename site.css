@@ -7,22 +7,25 @@
  body {
    width: 100%;
    overflow-x: hidden;
+   background-color: wheat;
+
  }
       nav {
           background-color: wheat;
            box-shadow: 0 0 5px lightgrey;
             font-size: 20px;
             color:black;
-             padding: 10px 14px;
-              height: 10vh;
+             padding: 20px 14px;
+              height: auto;
               z-index: 10;
+            
       }
        nav p {
         float: left;
          text-align: center;
           font-size: large;
            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            margin: 3px;
+            margin: 0 3px;
              
        }
         nav ul {
@@ -33,7 +36,7 @@
         }
          nav li {
             padding: 10px 14px;
-            margin: 8px;
+            margin: 1px 8px;
              text-align: center;
               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          }
@@ -49,10 +52,10 @@
            background-color: wheat;
             width:100%;
             padding:2px;
-             height: 100vh;
+             height: 90vh;
              display: grid;
              grid-template-columns: auto auto;
-            
+           /* overflow-y: scroll; */
         }
          
 
@@ -65,6 +68,7 @@
               display: grid;
               place-content: center;
               margin: 24px;
+            
           
           }
             .container img {
@@ -101,8 +105,8 @@
 
          
            .slidecontainer {
-           
-                 height: auto;
+            
+                 height: auto; 
            }
              .slidecontainer h1 {
               padding: 10px;
@@ -137,7 +141,7 @@
               }
               #about {
                 background-color:wheat;
-               padding: 10px 2px;
+               padding: 10px;
                transition: 0.5s linear;
               }
                .des   {
@@ -152,13 +156,13 @@
                 .what {
                    color: black;
                   display: grid;
-               grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+               grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
                gap: 1px;
-            row-gap: 2px;
-              font-size: large;
+            row-gap: 20px;
+              font-size: larger;
                  column-gap: 1.5rem; 
                 width:90vw;
-                margin: 1px auto;
+                margin: 4px auto;
                 
                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 }
@@ -169,7 +173,7 @@
                 } 
                  #contacts {
                   background-color:wheat;
-                  padding: 10px 2px;
+                  padding: 10px;
                   transition: 0.5s linear;
                   text-align: center;
                  }
@@ -180,13 +184,13 @@
                  .contactgrid {
                   color: black;
                   display: grid;
-               grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+               grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
                gap: 1px;
-            row-gap: 2px;
+            row-gap: 20px;
                  column-gap: 1.5rem; 
                 width:90vw;
-                margin: 1px auto;
-                font-size: large;
+                margin: 4px auto;
+                font-size: larger;
                 font-family:Georgia, 'Times New Roman', Times, serif;
                 text-align: center;
                  }
@@ -217,7 +221,7 @@
                       padding: 20px;
                     }
                              textarea {
-                               width:320px;
+                               width:95%;
                                height:150px ;
                                padding: 20px;
                                margin: 5px;
@@ -229,10 +233,10 @@
                            justify-content: start;
                             font-size: 18px;
                             font-family: Arial, Helvetica, sans-serif;
-                            margin: 5px 4px;
+                            margin: 5px 8px;
                      }
                        .inputbox input {
-                         width:80%;
+                         width:95%;
                           margin: 0 auto 14px auto;
                           font-size: 15px;
                           outline: none;
@@ -259,7 +263,8 @@
                         }
                    .display {
                    transform: translateX(100%);
-             display:none;
+                   display: none;
+            
          
                    }
                     #bars {
@@ -268,7 +273,7 @@
                      .newsletter {
                        background-color:black;
                       color: white;
-                       padding: 20px 10px;
+                       padding: 20px 4px;
                        box-sizing: border-box;
                      }
                        .newsletter h1 {
@@ -277,19 +282,23 @@
                          font-size: 20px;
                        }
                         .newsletter input {
-                           width:75%;
-                    padding: 5px;
+                           width:80%;
+                    padding: 2px;
                     margin: 10px;
 
                         }
                         .newsletter button {
                           font-size: 17px;
-                           width:25%;
-                            padding:18px ;
+                           width:20%;
+                            padding:18px 8px;
                             text-align: center;
                             background-color: red;
                             color:white;
                             border-radius: 20px;
+                        }
+                        .newsletter button:hover {
+                         background-color: white;
+                         color: red;
                         }
                     .space {
                       display: flex;
@@ -300,23 +309,31 @@
                .container {
                   background-color: wheat;
                    width:100%;
-                   padding:2px;
-                    height: 90vh;
+                   padding:20px;
+                    height: auto;
                     display: grid;
                     grid-template-columns: auto ;
-                   gap:4px
+                   gap:4px;
                }
                   .container img{
                      width:450px
                   }
+                  .boxslide img {
+                     width:150px;
+                     object-fit: fill;
+                  }
             }
               @media (max-width:700px)  {
-                 nav ul {
+                nav {
+                   height: auto;
+                  padding: 24px 10px;
+                }
+                nav ul {
                   display: none;
                  }
                  
                    .display {
-                        display:block;
+                    display: block;
                      transform: translateX(100%);
                      text-align: center;
                            
@@ -330,6 +347,7 @@
                   height: 100%;
                    overflow-y: hidden;
                    overflow-x: hidden;
+                   
                   
                     transition: 0.5s linear;
 
@@ -360,7 +378,8 @@
                             top:0;
                             right: 0;
                             
-                            margin: 5px;
+                            margin: 10px;
+                            
                               font-size: 30px;
                               font-weight: bold;
                          }
@@ -378,26 +397,34 @@
                             width: 40px;
                             text-align: center;
                           }
-                    .container img {
-                          width:250px;
-                         height:350px;
-                          margin:2px auto
+                           .newsletter {
+
+                            padding: 1px;
+                           }
+                            .newsletter input {
+                              margin:5px;
+                              width:65%;
+                            }
+                             .newsletter button {
+                               width:30%;
+                             }
+                             .inputbox {
+                               width:90vw;
+                             }
+                             textarea {
+                               width:90%;
+                             }
+                              .container img {
+                                 width:340px;
+                                 height: 450px;
+                              }
+                              .boxslide img {
+                                height: 150px;
+                                object-fit: fill;
+                              }
+                              .slidecontainer h1 {
+                                font-size: 20px;
+                              }
               }
-           .boxslide img {
-                   width:50%;
-                    object-fit:cover;
-                     height:100px;
-                     border: 1px solid black;
-                     
-              }
-                      .slidecontainer h1 {
-              padding: 5px;
-              font-size:15px;
-               margin:0 0 1px 0;
-                text-align: center;
-                color: red;
-                margin-bottom: 1px;
-                background-color: white;
-             }
-              }
+            
     
