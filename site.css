@@ -184,7 +184,7 @@
                  .contactgrid {
                   color: black;
                   display: grid;
-               grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+               grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
                gap: 1px;
             row-gap: 20px;
                  column-gap: 1.5rem; 
