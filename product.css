@@ -393,7 +393,7 @@ width:100%;
        }
             @media(max-width:600px) {
                .cart {
-                 width:90%;
+                 width:99%;
                }
                #product {
                 display: grid;
