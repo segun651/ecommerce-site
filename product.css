@@ -159,7 +159,7 @@ width:100%;
            padding: 10px 14px;
              height: auto;
           z-index: 10;
-            
+           width:100%; 
          
      }
       nav p {
@@ -398,7 +398,7 @@ width:100%;
                #product {
                 display: grid;
                 grid-template-columns: auto;
-                 row-gap:20px;
+                 row-gap:2px;
                  column-gap: 1.5rem; 
                 width:90vw;
              
