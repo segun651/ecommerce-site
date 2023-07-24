@@ -252,7 +252,7 @@ width:100%;
                  list-style: none;
              }
              .filter li {
-                padding: 10px 14px;
+                padding: 20px 14px;
                 margin: 18px;
                  text-align: center;
                 
@@ -408,4 +408,10 @@ width:100%;
                  text-align: center;
 
                }
+                .filter li {
+                padding: 5px 8px;
+                margin: 8px;
+                 text-align: center;
+                
+             }
             }
