@@ -281,11 +281,12 @@ width:100%;
                }
                
               #product img {
+                   display:block;
+                  margin:auto;
                   width:500px;
                    object-fit: contain;
                    height:200px;
-                display:block;
-                  margin:auto;
+               
                }
      .boxbtns {
          width:40%;
