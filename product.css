@@ -284,7 +284,8 @@ width:100%;
                   width:500px;
                    object-fit: contain;
                    height:200px;
-                
+                display:block;
+                  margin:auto;
                }
      .boxbtns {
          width:40%;
@@ -395,7 +396,7 @@ width:100%;
             @media(max-width:600px) {
                .cart {
                  width:99%;
-                   padding-right:20px;
+    
                }
                #product {
                 display: grid;
