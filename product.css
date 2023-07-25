@@ -399,6 +399,9 @@ width:100%;
                  width:99%;
                 padding-right:30px;
                }
+                 nav {
+                      width:auto;
+                 }
                #product {
                 display: grid;
                 grid-template-columns: auto;
