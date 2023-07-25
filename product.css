@@ -153,6 +153,7 @@ width:100%;
              font-weight: bold;
           }
      nav {
+         display:grid;
          background-color:white;
           box-shadow: 0 0 5px lightgrey;
            font-size: 20px;
