@@ -415,8 +415,9 @@
                                width:90%;
                              }
                               .container img {
-                                 width:240px;
+                                 width:80vw;
                                  height: 450px;
+                                   margin:auto;
                               }
                               .boxslide img {
                                 height: 150px;
