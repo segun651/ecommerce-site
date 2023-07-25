@@ -315,10 +315,10 @@ width:100%;
 
        @media (max-width:830px) {
          .input input {
-           width:60%;
+           width:40%;
          }
            .search {
-            width:25%;
+            width:30%;
            }
        nav ul {
         display: none;
