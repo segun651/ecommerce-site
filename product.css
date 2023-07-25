@@ -400,7 +400,7 @@ width:100%;
                 padding-right:30px;
                }
                  nav {
-                      width:auto;
+                      width:100vw;
                  }
                #product {
                 display: grid;
