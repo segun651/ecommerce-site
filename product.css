@@ -417,7 +417,7 @@ width:100%;
                 
              }
                    .cartcontent {
-                          grid-template-columns:auto auto 20%;
+                          grid-template-columns:20% auto 20%;
                      }
             }
                
