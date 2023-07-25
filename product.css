@@ -165,7 +165,7 @@ width:100%;
          
      }
       nav p {
-       float: left;
+       justify-content:start;
         text-align: center;
          font-size: large;
           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
