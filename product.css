@@ -258,7 +258,7 @@ width:100%;
                 padding: 20px 14px;
                 margin: 18px;
                  text-align: center;
-                
+                font-family:cursive;
              }
              .filter li:hover{
                 border-bottom: 2px solid blue;
@@ -408,7 +408,7 @@ width:100%;
                 display: grid;
                 grid-template-columns: auto;
                  row-gap:2px;
-                 column-gap: 1.5rem; 
+                 column-gap: 0.5rem; 
                 width:90vw;
              
                 box-shadow: 0 0 5px lightgrey;
