@@ -117,6 +117,7 @@ width:100%;
 
               }
              .detail  .name {
+                 display:grid;
               margin: 5px;
                text-align: center;
                font-size: 15px;
