@@ -160,7 +160,7 @@ width:100%;
            padding: 10px 14px;
              height: auto;
           z-index: 10;
-           width:100%; 
+           width:100vw; 
          
      }
       nav p {
