@@ -416,10 +416,8 @@ width:100%;
                  text-align: center;
                 
              }
-            }
-                @media(max-width:410px) {
-                     .cartcontent {
-                          grid-template-columns:auto;
+                   .cartcontent {
+                          grid-template-columns:auto auto auto;
                      }
-                }
-
+            }
+               
