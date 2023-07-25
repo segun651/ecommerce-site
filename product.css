@@ -396,7 +396,7 @@ width:100%;
             @media(max-width:600px) {
                .cart {
                  width:99%;
-    
+                padding-right:30px;
                }
                #product {
                 display: grid;
