@@ -419,7 +419,7 @@ width:100%;
             }
                 @media(max-width:410px) {
                      .cartcontent {
-                          grid-template-columns:auto auto auto;
+                          grid-template-columns:auto;
                      }
                 }
 
