@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="service.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"  rel="stylesheet">
+</head>
+<body>
+    <i class="fa fa-bars" id="bars"></i> 
+    
+    <div class="display" >
+       <div class="closecart">&times</div>
+   <li><a href="foot.html"> Home </a></li>
+   <li><a href="service.html"> Services </a></li>
+   <li><a href="#contacts"> Contacts </a></li>
+   <li><a href="#about">About Us </a></li>
+   
+   </div>
+ 
+     <div class="navbox">
+         <nav>
+ 
+             <p>Segs Store</p>
+             <ul>
+                
+              <li><a href="foot.html"> Home </a></li>
+              <li><a href="service.html"> Services </a></li>
+              <li><a href="#contacts"> Contacts </a></li>
+              <li><a href="#about">About Us </a></li>
+             
+             </ul>
+            
+         </nav>
+         <div class="searchbox">
+            <input type="text" name="name"  id="nameinput" placeholder="Search for your products here.">
+             <button onclick="showname()"> Search </button>
+         </div>
+         <div class="filter">
+            <ul>
+           <p id="all"  data-filter="all" > All </p>
+           <li id="Nike"  data-filter="Nike" > Nike</li>
+           <li id="Puma"  data-filter="Puma" > Puma </li>
+           <li id="Adidas" data-filter="Adidas" > Adidas </li>
+           <li id="Reebok"   data-filter="Reebok"> Reebok </li>
+           <li id="Gucci"   data-filter="Gucci"> Gucci </li>
+           <li id="Vans"   data-filter="Vans"> Vans </li>
+            </ul>
+        </div>
+        <div>
+        <div class="modal">
+            <i class="fa fa-bars" id="bar"></i> <p class="text">Categories
+                <div class="modals">
+
+                <div class="close">&times</div>
+                <div class="list">
+                <ul >
+                    <p id="alls"  data-filter="all" > All </p>
+                    <li id="Nike"  data-filter="Nike" > Nike</li>
+                    <li id="Puma"  data-filter="Puma" > Puma </li>
+                    <li id="Adidas" data-filter="Adidas" > Adidas </li>
+                    <li id="Reebok"   data-filter="Reebok"> Reebok </li>
+                    <li id="Gucci"   data-filter="Gucci"> Gucci </li>
+                    <li id="Vans"   data-filter="Vans"> Vans </li>
+                     </ul>
+                </div>
+                </div>
+            </p>
+        </div>
+         <i class="fa fa-shopping-cart"  id="shop"></i>
+     </div>
+     </div>
+      <div class="producttext">
+        <h1> Our Products</h1>
+      </div>
+      <div class="product">
+
+      </div>
+
+      <div class="cart">
+        <div class="closecarts" >&times</div>
+        <h1> Your Cart</h1>
+    
+         <div class="cartbox"> 
+        <h1  style="text-align: center;">  Your cart is empty</h1>
+    </div> 
+          
+         <div class="total"> Total  <span class="totalprice" >  $0 </span></div>
+        
+          <div id="buysbtn">
+        <button onclick="clears()" class="clear" > Clear Cart</button>
+     <button id="buys"> Buy Now</button>
+    </div>
+    </div>
+    <div class="overlay"></div>
+       <script src="service.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+     <h1 class="desc"> Thanks For Shopping With Us.</h1>
+    <div class="content">
+        <h2>Package to be delivered within the next five working days.</h2>
+        <h2> Payment to be done on delivery.</h2>
+        <h2>Delivery charges to be added on payment.</h2>
+        <h2> Total amount payable: <span id="total"></span></h2>
+         <button onclick="remove()"> Back to homepage</button>
+    </div>
+    <script>
+         function remove() {
+             localStorage.removeItem("cart")
+             localStorage.removeItem("totalprice")
+             document.location = "Site.html"
+         }
+           
+             let total = document.getElementById("total")
+              let totals = localStorage.getItem("totalprice")
+               total.innerText = `$${totals}`
+    </script>
+</body>
+</html>
