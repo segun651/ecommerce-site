@@ -517,6 +517,8 @@ nav {
                         overflow:hidden;
                   
                       }
-
+                                       .box {
+                         padding: 5px;
          
+                       }
                        }
