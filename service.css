@@ -526,7 +526,7 @@ nav {
                           grid-template-columns: auto;
                            row-gap:2px;
                            column-gap: 0.5rem; 
-                          width:90vw;
+                          width:80vw;
                         justify-content: center;
                           box-shadow: 0 0 5px lightgrey;
                            padding: 2px;
