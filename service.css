@@ -505,7 +505,7 @@ nav {
                              .box img {
                       display: block;
                       margin: auto;
-                        width:250px;
+                        width:180px;
                         object-fit: cover;
                        height: 150px;
                       }
