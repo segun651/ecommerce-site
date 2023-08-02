@@ -521,4 +521,18 @@ nav {
                          padding: 5px;
          
                        }
+                             .product {
+                          display: grid;
+                          grid-template-columns: auto;
+                           row-gap:2px;
+                           column-gap: 0.5rem; 
+                          width:90vw;
+                        justify-content: center;
+                          box-shadow: 0 0 5px lightgrey;
+                           padding: 2px;
+                           padding-top: 20px;
+                           margin: 0 auto;
+                           text-align: center;
+                           height: auto;
+                        }
                        }
