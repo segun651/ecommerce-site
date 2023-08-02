@@ -424,7 +424,7 @@ nav {
                       display: block;
                       margin: auto;
                         width:70%;
-                        object-fit: fill;
+                        object-fit: cover;
                        height: 150px;
                       }
                   
@@ -502,6 +502,13 @@ nav {
                         
                         width: 30%;
                        }
+                             .box img {
+                      display: block;
+                      margin: auto;
+                        width:50%;
+                        object-fit: cover;
+                       height: 150px;
+                      }
                        }
          
          
