@@ -126,7 +126,7 @@ let items = [
         id:11,
         quantity : 1,
          name : "WHITE REEBOK FOOTWEAR",
-         price:"$85",
+         price:"85",
          img:"https://reebok.ca/cdn/shop/products/124ov026iO1FOX-piA5IFXVF8NDk1y3Vp.jpg?v=1663436002&width=1445",
         
          nature : {
