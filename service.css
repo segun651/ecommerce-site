@@ -451,6 +451,7 @@ nav {
                         color: white;
                         position: relative;
                         display: inline-block;
+                      margin-left: 3px;
                       }
                         .modal  .modals {
                            display: none;
