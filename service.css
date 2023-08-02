@@ -280,7 +280,7 @@ nav {
                                  .cart .price {
                                    text-align: center;
                                     margin: 4px;
-                    
+                              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                                  }
                                   .detail {
                                     display: grid;
@@ -334,7 +334,7 @@ nav {
                                  justify-content: flex-end;
                                  border-top: 1px solid black;
                                  font-size: 30px;
-                                 gap: 10px;
+                              column-gap: 10px;
                                  font-weight: bold;
                               }
                               .modal {
