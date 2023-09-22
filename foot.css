@@ -315,6 +315,12 @@ nav {
                      height: auto;
                     
                 }
+                      .newsletter button {
+                          font-size:13px; 
+                      }
+                      input[type=submit] {
+                          font-size:13px;
+                      }
                 nav {
                   margin: 0;
                   padding: auto;
