@@ -3,7 +3,8 @@ I am creating a ecommerce website using html css and vanilla javascript.
 This project does not require any package installations or dependencies. It is just a simple site to implement and solidify my knowledge in html css and javascript.
 
 # Demo
-https://github.com/segun651/ecommerce-site/foot.html
+https://segun651.github.io/ecommerce-site/foot.html
+
 
 # Feedback
 If you have any feedback, please reach out to me at omojolasegun222@gmail.com
