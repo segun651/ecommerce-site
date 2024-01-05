@@ -46,7 +46,7 @@ nav {
      .container {
          width:100%;
           display:grid;
-          grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+          grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
           background-color:black;
           height: 70vh;
           padding: 10px;
@@ -99,7 +99,7 @@ nav {
 
           .agrid {
              display:grid;
-             grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+             grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
           }
            .agrid img {
             display: flex;
@@ -177,7 +177,7 @@ nav {
            .contactgrid {
             color: black;
             display: grid;
-         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
          gap: 1px;
       row-gap: 20px;
            column-gap: 1.5rem; 
@@ -324,7 +324,7 @@ nav {
                 nav {
                   margin: 0;
                   padding: auto;
-                  height: 10vh;
+                  height: 12vh;
                 }
                     nav ul {
                       display:none;

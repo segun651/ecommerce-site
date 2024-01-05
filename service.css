@@ -243,12 +243,12 @@ nav {
                                      display: grid;
                                      justify-content: center;
                                   }
-                                   .quantity {
+                                  .quantity {
                                     width:100px;
                                     padding:12px;
                                     margin: 5px;
                                     font-size: 20px;
-                                   }
+                                   } 
                                 
                                  .fa-trash  {
                                    text-align: center;
@@ -437,6 +437,17 @@ nav {
                       .cart {
                         width:100%;
                       }
+                      .detail {
+                        font-size: 15px;
+                        margin-left: 27px;
+                      }
+                      .quantity {
+                        width:70px;
+                        padding:12px;
+                        margin-left: 5px;
+                        font-size: 20px;
+                       } 
+                    
                       .modal {
                         display: block;
                          display: flex;
@@ -495,7 +506,7 @@ nav {
                           text-align: center;
                         }
                        .cartbox img {
-                         width:70px;
+                         width:50px;
                        }
                        .producttext {
                         font-size: 12px;
@@ -503,6 +514,7 @@ nav {
                        .searchbox button {
                         
                         width: 30%;
+                        font-size: 12px;
                        }
                              .box img {
                       display: block;
@@ -535,5 +547,8 @@ nav {
                            margin: 0 auto;
                            text-align: center;
                            height: auto;
+                        }
+                        .cart .total {
+                          font-size: 25px;
                         }
                        }

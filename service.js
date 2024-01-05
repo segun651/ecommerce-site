@@ -540,6 +540,7 @@ let close = document.querySelector(".closecart")
                let alls = document.getElementById("alls")
               alls.addEventListener("click", all)
                function all(e) {
+                modal.style.display = "none"
                 let valueFilter =  e.target.dataset.filter
                 
                 itemsfilter = items.filter((item ) => {
@@ -557,12 +558,13 @@ let close = document.querySelector(".closecart")
                }
       
                let modals = document.querySelectorAll(".list li")
+              
                   for(i=0; i<modals.length; i++) {
                   
                   modals[i].addEventListener("click", filters)
                   }
                function filters(e) {
-              
+                modal.style.display = "none"
               let valueFilter = e.target.dataset.filter
                 
                 itemsfilter = items.filter((item ) => {
