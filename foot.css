@@ -4,6 +4,7 @@
       margin: 0;
 
 }
+ 
 nav {
     background-color: black;
      box-shadow: 0 0 5px lightgrey;
@@ -46,7 +47,7 @@ nav {
      .container {
          width:100%;
           display:grid;
-          grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+          grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
           background-color:black;
           height: 70vh;
           padding: 10px;
@@ -80,6 +81,7 @@ nav {
         .container img {
              width:400px;
             
+            
         }
         .imgcon { 
         display: grid;
@@ -99,13 +101,13 @@ nav {
 
           .agrid {
              display:grid;
-             grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+             grid-template-columns:  repeat(auto-fit, minmax(150px, 1fr));
           }
            .agrid img {
             display: flex;
             
-            width:60%;
-             height:300px;
+            width:80%;
+             height:400px;
               object-fit: cover;
               display: block;
               margin: auto;
@@ -177,7 +179,7 @@ nav {
            .contactgrid {
             color: black;
             display: grid;
-         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
          gap: 1px;
       row-gap: 20px;
            column-gap: 1.5rem; 
@@ -251,7 +253,7 @@ nav {
                    
                      display: flex;
                      justify-content: center;
-                     width:60%;
+                     width:fit-content;
                      color:white;
                      border-radius: 10px;
                      padding: 15px 12px;
@@ -276,14 +278,14 @@ nav {
                       color:white;
                     }
                      .newsletter input {
-                        width:70%;
+                        width:60%;
                  padding: 2px;
                  margin: 10px;
               font-size: 20px;
                      }
                      .newsletter button {
                        font-size: 17px;
-                        width:30%;
+                        width:40%;
                          padding:18px 8px;
                          text-align: center;
                          background-color:black;
@@ -314,6 +316,10 @@ nav {
                   
                      height: auto;
                     
+                    
+                }
+                .container img {
+                  width: 270px;
                 }
                       .newsletter button {
                           font-size:13px; 
@@ -389,7 +395,7 @@ nav {
                               font-size: 30px;
                               font-weight: bold;
                               margin: 4px;
-                              
+                             
                            }
                            .closecart:hover {
                              background-color: red;
@@ -400,16 +406,31 @@ nav {
                    height: auto;
                 }
                 .boxslide img {
+                  width: 50%;
                   object-fit: fill;
                   height: 150px;
               }
                }
 
                  @media(max-width:550px) {
+                  .container {
+                    padding: 0;
+                    grid-template-columns: auto;
+                    
+                  }
                          .container img {
-                            width:250px;
+                            width:70%;
                          }
-
+                         .container .text h1 {
+                          font-size: 30px;
+                          padding: 5px;
+                         }
+                         .boxslide img {
+                          width: 80%;
+                         }
+                         .container .text button {
+                          width: 90%;
+                         }
                  }
 
                    @media   (orientation:landscape ) and ( max-width:1500px) {
